@@ -1,0 +1,41 @@
+node-parallel-transform (1.2.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace
+  * Use secure copyright file specification URI
+  * Bump debhelper from old 11 to 12
+  * Set debhelper-compat version in Build-Depends
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto install (Closes: #974409)
+  * New upstream version 1.2.0
+  * Drop patch and add dependency to node-readable-stream
+  * Add minimal test based on doc example
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 22 Dec 2020 17:58:13 +0100
+
+node-parallel-transform (1.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Remove readable-stream dependency (use native stream from nodejs instead)
+  * Add require test during build
+  * Use salsa.debian.org in Vcs-* fields
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 13 Sep 2018 22:15:38 +0530
+
+node-parallel-transform (1.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #877408)
+
+ -- Preyass Chandran <preyassc@hotmail.com>  Sun, 01 Oct 2017 19:39:40 +0530
